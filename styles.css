@@ -1,0 +1,48 @@
+body {
+    background: rgb(207, 207, 207);
+    margin: 0;
+}
+h1, h2, p {
+    font-family: Arial;
+}
+div {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.post {
+    background: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+.post h2, .post p{
+    padding: 15px;
+    margin: 0px;
+
+}
+ .post img {
+     width:100%;
+ }
+ .post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+    }
+.post .post-header div:last-child {
+        display: inline-block;
+        width: 20%;
+        text-align: right
+        }
+.post-header p {
+    color: grey;
+}
